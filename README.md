@@ -24,6 +24,18 @@ The **Notes Bot** project is an automated tool written in Python designed to enh
     
 5. **Note Dispatch:** The bot operates within an infinite loop ♾️, continuously monitoring the current time. It sends Note featuring updated content based on the current time and the defined interval.
 
-6. **User Engagement:** Followers receive captivating messages that showcase the current time with clock emojis 🕓🕘 and incorporate interactive questions ❓. This fosters user engagement and interactions with the account.
+6. **User Engagement:** Followers receive captivating messages that showcase the custom messages 💬 and incorporate interactive questions ❓. This fosters user engagement and interactions with the account.
 
 **Note:** The Notes Bot project serves as a foundational code structure that necessitates further refinement and adaptation to ensure compatibility with potential updates to the Instagram API or the `instagrapi` library.
+
+##
+
+<footer>
+<p style="float:left; width: 20%;">
+Made by Torin
+</p>
+<p style="float:left; width: 60%; text-align:center;">
+<a rel="license" href="https://www.instagram.com/securedbyte/">
+<img alt="Instagram" style="border-width:2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" /></a>
+</p>
+</footer>
