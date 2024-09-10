@@ -5,9 +5,6 @@
 ![message 4](https://github.com/user-attachments/assets/87c38092-68d4-457d-a965-9988e9012ff2)
 ![message5](https://github.com/user-attachments/assets/bfad4fea-e2f8-4474-a529-3bbd0e91e0e3)
 
-
-
-
 ## Description
 
 The **Notes Bot** project is an automated tool written in Python designed to enhance user engagement on Instagram by delivering personalized notification messages to a designated Instagram account at regular intervals.
@@ -20,9 +17,9 @@ The **Notes Bot** project is an automated tool written in Python designed to enh
 
 3. **Customization:** Tailor the bot's messaging approach, interval timings, and notification content by modifying the relevant constants and functions.
 
-4. **Execution:** Upon executing the script, the bot verifies the presence of existing authentication cookies 🍪. If absent, it creates cookies through the login procedure.  Use `python main.py` to start the script
+4. **Execution:** Upon executing the script, the bot verifies the presence of existing authentication cookies 🍪. If absent, it creates cookies through the login procedure.  Use `python main.py` to start the script.
     
-5. **Note Dispatch:** The bot operates within an infinite loop ♾️, continuously monitoring the current time. It sends Note featuring updated content based on the current time and the defined interval.
+5. **Note Dispatch:** The bot operates within an infinite loop ♾️, continuously monitoring the current time. It sends Notes featuring updated content based on the current time and the defined interval.
 
 6. **User Engagement:** Followers receive captivating messages that showcase the custom messages 💬 and incorporate interactive questions ❓. This fosters user engagement and interactions with the account.
 
@@ -35,7 +32,6 @@ The **Notes Bot** project is an automated tool written in Python designed to enh
 Made by Torin
 </p>
 <p style="float:left; width: 60%; text-align:center;">
-<a rel="license" href="https://www.instagram.com/securedbyte/">
-<img alt="Instagram" style="border-width:2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" /></a>
+<a rel="license" href="https://www.instagram.com/securedbyte/"> <img alt="Instagram" style="border-width:2; width:40px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" /></a>
 </p>
 </footer>
