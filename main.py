@@ -19,7 +19,7 @@ def send_custom_note(note_text):
 
 def get_dynamic_text():
     texts = [
-        "MESSAGE 1 HERE",
+        "MESSAGE 1: HERE",
         "MESSAGE 2 HERE",
         "MESSAGE 3 HERE",
         "MESSAGE 4 HERE",
@@ -27,6 +27,9 @@ def get_dynamic_text():
     ]
 
     return texts[int(time.time()) % len(texts)]
+
+def clear_console():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), f"{USERNAME}.json")):
     print("Using existing cookies")
@@ -40,6 +43,7 @@ while True:
     note_text = get_dynamic_text()
 
     if previous_note_text != note_text:
+        clear_console()
         print(send_custom_note(note_text))
         previous_note_text = note_text
 
